@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Noah Template</title>
+	<title>Nilesh Tale | Software Engineer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -67,23 +67,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="head-title">Works</h2>
-						<a href="images/work-1.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-1.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-						<a href="images/work-2.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-2.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-						<a href="images/work-3.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-3.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-						<a href="images/work-4.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-4.jpg);">
-							<span><i class="icon-search3"></i></span>
-						</a>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</nav>
@@ -223,12 +207,18 @@
 							
 						</div>
 						<div class="col-md-4 col-pb-sm">
-							<h2>Newsletter</h2>
-							<p>You wish me to contact you? <br> Please leave your e-mail address!</p>
+							<h2>Contact me!</h2>
+							<p>You wish me to contact you? <br> Please leave a message and your e-mail address!</p>
 							<div class="subscribe text-center">
 								<div class="form-group">
-									<input type="text" class="form-control text-center" placeholder="Enter Email address">
-									<input type="submit" value="Subscribe" class="btn btn-primary btn-custom">
+								<form action="https://api.web3forms.com/submit" method="POST">
+									<input type="hidden" name="access_key" value="05fc3833-34a6-4a17-9854-012e424d3664">
+									<input type="text" class="form-control text-center" name="name" required placeholder="Name">
+									<textarea name="message" class="form-control text-center" required placeholder="Enter message"></textarea>
+									<input type="email" class="form-control text-center" name="email" required placeholder="Enter your Email address">
+								
+									<input type="submit" value="Submit" class="btn btn-primary btn-custom">
+								</form>
 								</div>
 							</div>
 						</div>
